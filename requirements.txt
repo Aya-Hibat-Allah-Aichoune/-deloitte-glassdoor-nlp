@@ -1,0 +1,25 @@
+# Entorno probado: Python 3.12, macOS Intel (CPU). En Google Colab solo hace falta instalar bertopic (ver celda 1 del notebook).
+# Nota: torch 2.2.2 es la última versión con wheels para macOS x86_64; en Linux/Windows/Colab vale cualquier torch >= 2.2.
+numpy==1.26.4
+pandas>=2.2,<3.1
+pyarrow>=15
+scikit-learn>=1.4
+scipy>=1.12
+matplotlib>=3.8
+seaborn>=0.13
+torch>=2.2,<2.3; sys_platform == "darwin" and platform_machine == "x86_64"
+torch>=2.2; sys_platform != "darwin" or platform_machine != "x86_64"
+transformers>=4.40,<4.50
+sentence-transformers>=3.0,<4
+bertopic>=0.16,<0.18
+umap-learn>=0.5.6
+hdbscan>=0.8.38
+tqdm
+openpyxl
+# Para ejecutar el notebook desde la línea de comandos (opcional)
+jupyter
+nbconvert
+nbclient
+ipykernel
+# Para regenerar la presentación (opcional)
+python-pptx

@@ -1,0 +1,18 @@
+# Datos: el Parquet lo entrega el profesor y no se redistribuye (293 MB; condiciones de uso de Kaggle)
+*.parquet
+data/
+
+# Materiales del curso (propiedad del profesor / Evolve Academy): no se publican sin permiso
+Caso_Practico_NLP_Glassdoor_RRHH.pdf
+Analisis de reseñas (plantilla)2.pdf
+Glassdoor_ejemplo.ipynb
+lista_con_sector.xlsx
+
+# Artefactos de ejecución
+cache/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+*.mp4
+*.mov
